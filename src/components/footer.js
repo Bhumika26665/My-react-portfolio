@@ -93,7 +93,9 @@ const Footer = () => {
         </div>
 
         <div className="mt-8 border-t border-gray-700 pt-4 text-center">
-          <p className="text-gray-500 text-sm">&copy; 2024 Bhumika Pandey. All Rights Reserved.</p>
+          <p className="text-sm text-gray-400">
+                    &copy; {new Date().getFullYear()} <a href='https://bpandey.vercel.app/' target='_blank'>Bhumika Pandey.</a> All Rights Reserved.
+                </p>
         </div>
       </div>
 
